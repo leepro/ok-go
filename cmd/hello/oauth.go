@@ -31,7 +31,7 @@ type JSONToken struct {
 		AuthProviderX509CertURL string   `json:"auth_provider_x509_cert_url"`
 		ClientSecret            string   `json:"client_secret"`
 		RedirectUris            []string `json:"redirect_uris"`
-	} `json:"installed"`
+	} `json:"web"`
 }
 
 type gcpAuthWrapper struct {
